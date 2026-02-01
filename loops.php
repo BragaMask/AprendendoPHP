@@ -8,30 +8,39 @@
 <body>
     <?php
          
-         $num = 1;
+         $numW = 1;
          //operadores comparação / lógicos
          echo "Ínicio do Loop <br>";
-         while($num < 10){
-            
-            echo "$num <br/>";
+         while($numW < 10){
 
-            $num++; //critério de parada
+            echo "$numW <br/>";
+
+            $numW++; //critério de parada
 
             //Podemos adicionar condições como Break, Continue
 
             /*
-            if($num > 100){
+            if($numW > 100){
             break;
             }
             */ 
 
             /*
-            if($num == 2 || $num == 6){
+            if($numW == 2 || $numW == 6){
             continue;
             }
             */ 
          }
          echo "Fim do LOOP <br>";
+
+         echo "<hr>";
+
+         $numDW = 1;
+         do {
+            echo "Entrou no Do While";
+         } while ($numDW > 100);
+
+
     ?>
 </body>
 </html>
