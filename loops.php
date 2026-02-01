@@ -40,6 +40,12 @@
             echo "Entrou no Do While";
          } while ($numDW > 100);
 
+         echo "<hr>";
+
+         for ($numF=1; $numF <= 10 ; $numF++) { 
+            echo "$numF <br/>";
+         }
+
 
     ?>
 </body>
