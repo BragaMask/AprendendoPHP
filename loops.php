@@ -46,6 +46,22 @@
             echo "$numF <br/>";
          }
 
+         echo "<hr>";
+
+         $moveis = ["mesa","cadeira","sofá"];
+
+         foreach ($moveis as $movel) {
+            
+            echo "$movel <br>";
+
+            if($movel == "cadeira"){
+
+            echo "Cadeira está saindo por R$67,00 <br>";
+
+            }
+
+         }
+
 
     ?>
 </body>
